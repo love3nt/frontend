@@ -1,36 +1,84 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
+
+# Frontend Development Learning Repository
+
+This repository is a personal project aimed at learning and improving my skills in frontend development using the following technologies:
+
+- **Next.js**
+- **TypeScript**
+- **JavaScript**
+- **CSS**
+- **Node.js**
+- **Prettier** for code formatting
+
+---
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+
+---
+
+## Introduction
+
+This project serves as a sandbox for learning and experimenting with frontend development concepts, with a focus on Next.js and TypeScript. Here, I work on building components, implementing best practices, and setting up a smooth developer experience with Prettier for formatting.
+
+## Features
+
+- Next.js setup with TypeScript integration for type safety and maintainability
+- JavaScript for dynamic interactions and logic
+- CSS for styling components and layouts
+- Node.js as the runtime environment for server-side development
+- Prettier configuration for consistent code formatting
+
+## Technologies Used
+
+- **Next.js**: React framework for building optimized and fast web applications
+- **TypeScript**: JavaScript with types for a more reliable and maintainable codebase
+- **JavaScript**: Core language for creating dynamic frontend functionality
+- **CSS**: Styling and layout control for the UI components
+- **Node.js**: Server-side runtime environment
+- **Prettier**: Code formatter to maintain a clean and consistent code style
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js installed on your machine
+- A package manager like npm or yarn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/your-repository-name.git
+   ```
 
-## Learn More
+2. **Navigate into the project directory:**
+   ```bash
+   cd your-repository-name
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The app should now be running at `http://localhost:3000`.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*This repository contains examples, experiments, and projects intended for learning. Feel free to explore each folder and file to understand the implementation of frontend concepts in Next.js and TypeScript.*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

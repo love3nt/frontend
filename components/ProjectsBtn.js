@@ -8,8 +8,12 @@ import Link from "next/link";
 import { HiArrowRight } from "react-icons/hi2"; 
 
 const ProjectsBtn = () => {
-  return <div className='mx-auto xl:mx-0'>
-    <Link href={'/work'} className='relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group'>
+  return ( 
+    <div className='mx-auto xl:mx-0 z-10'>
+      <Link 
+        href={'/work'} 
+        className='relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group-hover:bg-accent group'
+      >
       <Image 
        src={'/rounded-text.png'} 
        width={141}
@@ -19,7 +23,8 @@ const ProjectsBtn = () => {
        />
        <HiArrowRight className='absolute text-5xl group-hover:translate-x-2 transition-all duration-300 group-hover:text-accent' />
     </Link>
-    </div>;
+   </div>
+  );
 };
 
 export default ProjectsBtn;
